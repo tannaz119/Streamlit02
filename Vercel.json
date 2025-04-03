@@ -2,8 +2,19 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py", 
+      "src": "app.py",
       "use": "@vercel/python"
     }
-  ]
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ],
+  "build": {
+    "env": {
+      "PIP_NO_CACHE_DIR": "off"
+    }
+  }
 }
