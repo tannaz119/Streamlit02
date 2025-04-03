@@ -1,0 +1,22 @@
+
+{
+  "name": "Trading Book",
+  "short_name": "tradeapp",
+  "description": "برنامه‌ای برای ثبت و تحلیل معاملات شما در بازارهای مالی. با این برنامه می‌توانید معاملات خود را به دقت ثبت کنید، پورتفوی خود را مدیریت کنید و عملکرد خود را بهبود بخشید.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F9B288",
+  "theme_color": "#FFDECA",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
